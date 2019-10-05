@@ -103,6 +103,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <comp loc="(500,370)" name="P-box"/>
   </circuit>
   <circuit name="S-box">
     <a name="circuit" val="S-box"/>
@@ -1387,6 +1388,43 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M131,51 Q135,61 139,51" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="30" stroke="#000000" stroke-width="2" width="160" x="55" y="50"/>
+      <circ-port height="8" pin="60,190" width="8" x="56" y="46"/>
+      <circ-port height="8" pin="150,190" width="8" x="66" y="46"/>
+      <circ-port height="8" pin="200,190" width="8" x="76" y="46"/>
+      <circ-port height="8" pin="290,190" width="8" x="86" y="46"/>
+      <circ-port height="8" pin="420,190" width="8" x="96" y="46"/>
+      <circ-port height="8" pin="510,190" width="8" x="106" y="46"/>
+      <circ-port height="8" pin="560,190" width="8" x="116" y="46"/>
+      <circ-port height="8" pin="650,190" width="8" x="126" y="46"/>
+      <circ-port height="8" pin="800,190" width="8" x="136" y="46"/>
+      <circ-port height="8" pin="890,190" width="8" x="146" y="46"/>
+      <circ-port height="8" pin="940,190" width="8" x="156" y="46"/>
+      <circ-port height="8" pin="1030,190" width="8" x="166" y="46"/>
+      <circ-port height="8" pin="1150,190" width="8" x="176" y="46"/>
+      <circ-port height="8" pin="1240,190" width="8" x="186" y="46"/>
+      <circ-port height="8" pin="1290,190" width="8" x="196" y="46"/>
+      <circ-port height="8" pin="1380,190" width="8" x="206" y="46"/>
+      <circ-port height="10" pin="180,930" width="10" x="135" y="75"/>
+      <circ-port height="10" pin="180,1140" width="10" x="95" y="75"/>
+      <circ-port height="10" pin="180,1330" width="10" x="55" y="75"/>
+      <circ-port height="10" pin="190,700" width="10" x="175" y="75"/>
+      <circ-port height="10" pin="540,930" width="10" x="145" y="75"/>
+      <circ-port height="10" pin="540,1140" width="10" x="105" y="75"/>
+      <circ-port height="10" pin="540,1330" width="10" x="65" y="75"/>
+      <circ-port height="10" pin="550,700" width="10" x="185" y="75"/>
+      <circ-port height="10" pin="920,930" width="10" x="155" y="75"/>
+      <circ-port height="10" pin="920,1140" width="10" x="115" y="75"/>
+      <circ-port height="10" pin="920,1330" width="10" x="75" y="75"/>
+      <circ-port height="10" pin="930,700" width="10" x="195" y="75"/>
+      <circ-port height="10" pin="1270,930" width="10" x="165" y="75"/>
+      <circ-port height="10" pin="1270,1140" width="10" x="125" y="75"/>
+      <circ-port height="10" pin="1270,1330" width="10" x="85" y="75"/>
+      <circ-port height="10" pin="1280,700" width="10" x="205" y="75"/>
+      <circ-anchor facing="east" height="6" width="6" x="57" y="47"/>
+    </appear>
     <wire from="(1290,420)" to="(1290,630)"/>
     <wire from="(780,1240)" to="(900,1240)"/>
     <wire from="(60,250)" to="(60,830)"/>
@@ -1655,6 +1693,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i14"/>
     </comp>
     <comp lib="0" loc="(930,650)" name="Splitter">
       <a name="facing" val="north"/>
@@ -1684,6 +1723,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i13"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(180,1140)" name="Pin">
       <a name="facing" val="north"/>
@@ -1715,11 +1756,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i2"/>
     </comp>
     <comp lib="0" loc="(1380,190)" name="Pin">
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i0"/>
     </comp>
     <comp lib="0" loc="(550,700)" name="Pin">
       <a name="facing" val="north"/>
@@ -1752,6 +1795,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i15"/>
     </comp>
     <comp lib="0" loc="(940,230)" name="Splitter">
       <a name="facing" val="south"/>
@@ -1782,6 +1826,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i1"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(1270,1330)" name="Pin">
       <a name="facing" val="north"/>
@@ -1794,6 +1840,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i6"/>
     </comp>
     <comp lib="0" loc="(540,1140)" name="Pin">
       <a name="facing" val="north"/>
@@ -1856,6 +1903,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i8"/>
     </comp>
     <comp lib="0" loc="(1270,880)" name="Splitter">
       <a name="facing" val="north"/>
@@ -1867,6 +1915,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i11"/>
     </comp>
     <comp lib="0" loc="(190,650)" name="Splitter">
       <a name="facing" val="north"/>
@@ -1911,11 +1960,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i7"/>
     </comp>
     <comp lib="0" loc="(1150,190)" name="Pin">
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i3"/>
     </comp>
     <comp lib="0" loc="(920,930)" name="Pin">
       <a name="facing" val="north"/>
@@ -1934,6 +1985,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i5"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(1030,230)" name="Splitter">
       <a name="facing" val="south"/>
@@ -1951,6 +2004,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i12"/>
     </comp>
     <comp lib="0" loc="(180,930)" name="Pin">
       <a name="facing" val="north"/>
@@ -1969,6 +2023,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i4"/>
     </comp>
     <comp lib="0" loc="(1270,1090)" name="Splitter">
       <a name="facing" val="north"/>
@@ -2017,11 +2072,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i10"/>
     </comp>
     <comp lib="0" loc="(560,190)" name="Pin">
       <a name="facing" val="south"/>
       <a name="width" val="4"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="i9"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(540,1090)" name="Splitter">
       <a name="facing" val="north"/>
